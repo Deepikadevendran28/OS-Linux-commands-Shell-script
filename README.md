@@ -434,10 +434,17 @@ sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
 
+<img width="555" height="114" alt="Screenshot 2026-08-05 141240" src="https://github.com/user-attachments/assets/c2dd88a9-39fe-412c-8204-c19bd492f054" />
+
+
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
+
+
+<img width="469" height="109" alt="Screenshot 2026-08-05 141250" src="https://github.com/user-attachments/assets/597169d7-8bf2-42c7-ae5e-2fce4f0c9156" />
 
 
 
@@ -456,6 +463,7 @@ sort file21
 
 
 
+<img width="429" height="154" alt="Screenshot 2026-08-05 142500" src="https://github.com/user-attachments/assets/bd3f0873-48ce-4e52-b3e2-c2bcf3f9ee83" />
 
 
 
@@ -472,6 +480,7 @@ uniq file22
 ## OUTPUT
 
 
+<img width="484" height="161" alt="Screenshot 2026-08-05 142807" src="https://github.com/user-attachments/assets/f1d7c893-4960-4c0a-bccc-06021d252195" />
 
 
 
@@ -482,6 +491,7 @@ cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 
 
+<img width="645" height="218" alt="Screenshot 2026-08-05 142922" src="https://github.com/user-attachments/assets/e1449f9f-c548-4206-b217-069b0bad3ec5" />
 
 
 
@@ -503,12 +513,14 @@ cat urllist.txt | tr -d ' '
  ## OUTPUT
 
 
+<img width="458" height="111" alt="Screenshot 2026-08-05 143101" src="https://github.com/user-attachments/assets/ce93ceeb-081d-4a5f-8aec-1d2bef646a38" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="571" height="109" alt="Screenshot 2026-08-05 143142" src="https://github.com/user-attachments/assets/a4cd9b49-4223-4192-b242-28b5e068341c" />
 
 
 
@@ -517,6 +529,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 tar -cvf backup.tar *
 ## OUTPUT
 
+<img width="439" height="226" alt="Screenshot 2026-08-05 143238" src="https://github.com/user-attachments/assets/b0465007-6d44-4976-a8ea-3f55bbabb56d" />
 
 
 
@@ -532,6 +545,8 @@ tar -tvf backup.tar
 
 
 
+<img width="656" height="360" alt="Screenshot 2026-08-05 143353" src="https://github.com/user-attachments/assets/1fda9f79-c5f0-43ef-8a95-40ca24c1813c" />
+
 
 
 
@@ -540,14 +555,27 @@ tar -xvf backup.tar
 ## OUTPUT
 
 
+<img width="497" height="223" alt="Screenshot 2026-08-05 143422" src="https://github.com/user-attachments/assets/a55343ad-31f6-4de2-9ae7-99310f1ef679" />
+
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+
+<img width="538" height="71" alt="Screenshot 2026-08-05 143532" src="https://github.com/user-attachments/assets/554b7f49-95da-46ea-8f4a-1ce03cc5bb6d" />
+
+
+
+
  
 gunzip backup.tar.gz
 ## OUTPUT
+
+<img width="509" height="88" alt="Screenshot 2026-08-05 143604" src="https://github.com/user-attachments/assets/d85fe1f1-8dab-46e6-8e8f-9a89bad91a72" />
+
+
 
  
 # Shell Script
